@@ -17,32 +17,34 @@
       margin: 0; 
       padding: 0;
       display: block;
-      font-family: 'Verdana'; 
-      width: 100%; 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	  width: 100%; 
       height: 100%;
       scrollbar-width: none;
     }
     h1
     {
+	  font-weight:lighter;
       position: relative;
       font-size: 40px;
-      animation: message 2s forwards, textcolor 3s infinite;
-      -webkit-animation: message 2s forwards, textcolor 3s infinite;
+      animation: message 750ms forwards;
+      -webkit-animation: message 750ms forwards;
     }
     h2
     {
+	  font-weight:lighter;
       position: relative;
       left: -100%;
-      animation: message 2s 800ms forwards, textcolor 3s infinite;
-      -webkit-animation: message 2s 800ms forwards, textcolor 3s infinite;
+      animation: message 800ms forwards;
+      -webkit-animation: message 800ms forwards;
     }
     h3
     {
       position: relative;
 	  padding-top: 6px;
       left: -100%;
-      animation: message 2s 1500ms forwards, textcolor 3s infinite;
-      -webkit-animation: message 2s 1500ms forwards, textcolor 3s infinite;
+      animation: message 900ms forwards;
+      -webkit-animation: message 900ms forwards;
     }
     @-webkit-keyframes message {
       from {left: -100%; color: white;}
@@ -51,16 +53,6 @@
     @keyframes message {
       from {left: -100%; color: white;}
       to {left: 0; color: rgb(101, 162, 255);}
-    }
-    @-webkit-keyframes textcolor {
-      from {color: rgb(101, 162, 255);}
-      50% {color: rgb(56, 252, 144);}
-      to {color: rgb(101, 162, 255);}
-    }
-    @keyframes textcolor {
-      from {color: rgb(101, 162, 255);}
-      50% {color: rgb(56, 252, 144);}
-      to {color: rgb(101, 162, 255);}
     }
     .login
     {
@@ -84,9 +76,9 @@
     <!--Fin de barra de menú-->
     <div class="contenedor">
       <div class="login">
-            <h1>Bienvenido!</h1>
+            <h1>Bienvenido</h1>
             <h2>a<br></h2>
-            <h3>NZXT</h2>
+            <h3><img src="agpfooter.png" width="180px" height="30px"></h2>
       </div>
     </div>
    </body> 
