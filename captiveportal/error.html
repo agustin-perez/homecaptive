@@ -109,13 +109,13 @@
     <!--Fin de barra de menú-->
     <div class="contenedor">
       <div class="login">
-            <h1 style="color: red;">Error de autenticación</h1>
+            <h1 style="color: red;">Auth error</h1>
             <form class="loginform" method="post" action="$PORTAL_ACTION$">
-              <input class="textbox" name="auth_user" type="text" placeholder="Usuario"><br>
-              <input class="textbox" name="auth_pass" type="password" placeholder="Clave"><br>
+              <input class="textbox" name="auth_user" type="text" placeholder="Username"><br>
+              <input class="textbox" name="auth_pass" type="password" placeholder="Password"><br>
               <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
               <input name="zone" type="hidden" value="$PORTAL_ZONE$"><br>
-              <input class="formbtn" name="accept" type="submit" value="Entrar">
+              <input class="formbtn" name="accept" type="submit" value="Log in">
           </form>
       </div>
     </div>
